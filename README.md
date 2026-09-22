@@ -35,16 +35,19 @@ I liked the result, even with plain constant cooling. The palette isn't great, b
 
 Rendered in blue, it really reminds me of the flame from a propane grill that I watched as a child while my dad cooked burgers.
 
-### Related Projects
+## Related Projects
 
-#### Successor Projects
+### Successor Projects
 
 [`FireDemo`](https://github.com/redgreenshift/firedemo) is a direct successor to `Flames.st`.
+It expanded this prototype into a broader real-time lighting-effects playground
+including fire, lightning, and plasma.
 
 
 ## Credits
 
-The basic algorithm was inspired by C code written by Evan Jones.
+The basic high-level flame-generation algorithm was inspired by C code written by Evan Jones.
 
-None of the original C code is included in this demonstration, and I have not been able to locate it. However, a note about Evan Jones’s name was preserved in the original `Flames.st` Smalltalk prototype, so credit is given for the inspiration and basic algorithmic concept.
+This implementation is not a port of the original code. None of that code is included here, and I have not been able to locate it. The pixel neighborhood, cooling behavior, and color palette were developed independently through experimentation.
 
+A note identifying Evan Jones as the source of the algorithmic inspiration was preserved in the `Flames.st` Smalltalk prototype, so credit is given for the basic algorithmic concept.
