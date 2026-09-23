@@ -41,7 +41,7 @@ It is preserved as an example of exploratory programming written in Smalltalk-80
 
 ### Successor Projects
 
-[`FireDemo`](https://github.com/redgreenshift/firedemo) is a direct successor to `Flames.st`.
+[`FireDemo`](https://github.com/redgreenshift/firedemo) is the direct successor to `Flames.st`.
 It expanded this prototype into a broader real-time lighting-effects playground
 including fire, lightning, and plasma.
 
