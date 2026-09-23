@@ -35,6 +35,8 @@ I liked the result, even with plain constant cooling. The palette isn't great, b
 
 Rendered in blue, it really reminds me of the flame from a propane grill that I watched as a child while my dad cooked burgers.
 
+It is preserved as an example of exploratory programming written in Smalltalk-80 and is not under active development. It may require modifications to work with current Squeak versions.
+
 ## Related Projects
 
 ### Successor Projects
