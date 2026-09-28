@@ -49,13 +49,14 @@ including fire, lightning, and plasma.
 ## Credits
 
 The flame-generation algorithm implemented in this project was derived from
-`FIRE3.PAS`, a flame-effect demonstration written by Evan Jones.
+[`historical/FIRE3.PAS`](historical/FIRE3.PAS), a flame-effect demonstration written by
+Evan Jones.
 
 ## Historical Note
 
-A comment preserved in the `Flames.st` Smalltalk prototype identified Evan Jones
+A comment preserved in the [`Flames.st`](Flames.st) Smalltalk prototype identified Evan Jones
 as the source of the original inspiration for this project. After the repository
-was published, the source file was located: `FIRE3.PAS` by Evan Jones.
+was published, the source file was located: [`historical/FIRE3.PAS`](historical/FIRE3.PAS) by Evan Jones.
 
 The implementation in `Flames.st` retains the same basic pixel neighborhood and
 constant cooling value described in `FIRE3.PAS`. During development, other
