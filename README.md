@@ -48,30 +48,28 @@ including fire, lightning, and plasma.
 
 ## Credits
 
-The basic high-level flame-generation algorithm was inspired by code attributed to Evan Jones.
+The flame-generation algorithm implemented in this project was derived from
+`FIRE3.PAS`, a flame-effect demonstration written by Evan Jones.
 
 ## Historical Note
 
-A comment preserved in the `Flames.st` Smalltalk prototype identifies Evan Jones
-as the source of the algorithmic inspiration for this project.
+A comment preserved in the `Flames.st` Smalltalk prototype identified Evan Jones
+as the source of the original inspiration for this project. After the repository
+was published, the source file was located: `FIRE3.PAS` by Evan Jones.
 
-However, the source code that inspired this project can no longer be located,
-and I have not been able to verify the specific code, programming language,
-publication, archive, or author identity associated with that attribution.
+The implementation in `Flames.st` retains the same basic pixel neighborhood and
+constant cooling value described in `FIRE3.PAS`. During development, other
+neighborhoods and cooling values were explored, but these parameters produced
+the most convincing results.
 
-Although the project began as an experiment inspired by that earlier work, this
-implementation is not a port. The pixel neighborhood, cooling behavior, and
-color palette evolved independently through experimentation during development.
-
-The attribution to Evan Jones is preserved here because it appeared in the 2000
-era source code from which this repository is derived.
+This implementation is not a direct port. The code was rewritten in Smalltalk,
+and the color palette was developed independently through experimentation.
 
 As related historical context, I studied several fire-generation examples from
 the [SWAG (SourceWare Archive Group)](https://github.com/delphidabbler/swag)
-Pascal code collection several years before writing this prototype.
+Pascal code collection several years before writing this prototype. However, I
+have not been been able to determine whether `FIRE3.PAS` was part of that
+collection or was obtained from another source.
 
-However, I have not been able to determine whether the code attributed to Evan
-Jones originated from SWAG or from another source.
-
-If additional information about the original source is discovered in the future,
-this attribution will be updated accordingly.
+If additional information about the history or distribution of `FIRE3.PAS` is
+discovered in the future, this note will be updated accordingly.
