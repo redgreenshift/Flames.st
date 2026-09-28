@@ -4,7 +4,7 @@ Object subclass: #Flames
 	poolDictionaries: ''
 	category: 'Flames'!
 !Flames commentStamp: '<historical>' prior: 0!
-Inspired by a flame-generation algorithm written in C by Evan Jones.
+High-level flame-generation algorithm inspired by code attributed to Evan Jones.
 Smalltalk implementation by Jared Ivey.!
 
 
