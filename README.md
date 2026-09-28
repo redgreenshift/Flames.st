@@ -48,7 +48,7 @@ including fire, lightning, and plasma.
 
 ## Credits
 
-The basic high-level flame-generation algorithm was inspired by C code written by Evan Jones.
+The basic high-level flame-generation algorithm was inspired by code attributed to Evan Jones.
 
 This implementation is not a port of the original code. None of that code is included here, and I have not been able to locate it. The pixel neighborhood, cooling behavior, and color palette were developed independently through experimentation.
 
