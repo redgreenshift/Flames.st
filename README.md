@@ -50,6 +50,21 @@ including fire, lightning, and plasma.
 
 The basic high-level flame-generation algorithm was inspired by code attributed to Evan Jones.
 
-This implementation is not a port of the original code. None of that code is included here, and I have not been able to locate it. The pixel neighborhood, cooling behavior, and color palette were developed independently through experimentation.
+## Historical Note
 
-A note identifying Evan Jones as the source of the algorithmic inspiration was preserved in the `Flames.st` Smalltalk prototype, so credit is given for the basic algorithmic concept.
+A comment preserved in the `Flames.st` Smalltalk prototype identifies Evan Jones
+as the source of the algorithmic inspiration for this project.
+
+However, the source code that inspired this project can no longer be located,
+and I have not been able to verify the specific code, programming language,
+publication, archive, or author identity associated with that attribution.
+
+Although the project began as an experiment inspired by that earlier work, this
+implementation is not a port. The pixel neighborhood, cooling behavior, and
+color palette evolved independently through experimentation during development.
+
+The attribution to Evan Jones is preserved here because it appeared in the 2000
+era source code from which this repository is derived.
+
+If additional information about the original source is discovered in the future,
+this attribution will be updated accordingly.
