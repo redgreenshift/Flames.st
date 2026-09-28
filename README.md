@@ -66,5 +66,12 @@ color palette evolved independently through experimentation during development.
 The attribution to Evan Jones is preserved here because it appeared in the 2000
 era source code from which this repository is derived.
 
+As related historical context, I studied several fire-generation examples from
+the [SWAG (SourceWare Archive Group)](https://github.com/delphidabbler/swag)
+Pascal code collection several years before writing this prototype.
+
+However, I have not been able to determine whether the code attributed to Evan
+Jones originated from SWAG or from another source.
+
 If additional information about the original source is discovered in the future,
 this attribution will be updated accordingly.
