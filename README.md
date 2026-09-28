@@ -64,7 +64,9 @@ neighborhoods and cooling values were explored, but these parameters produced
 the most convincing results.
 
 This implementation is not a direct port. The code was rewritten in Smalltalk,
-and the color palette was developed independently through experimentation.
+and several algorithm parameters were derived independently through
+experimentation, including fire-seeding values and a system for generating
+multiple color palettes.
 
 As related historical context, I studied several fire-generation examples from
 the [SWAG (SourceWare Archive Group)](https://github.com/delphidabbler/swag)
